@@ -21,3 +21,13 @@ tpi2-satelites/
 ├── test_satelite.py           # Pruebas unitarias para satelite.py
 ├── test_catalogo.py           # Pruebas unitarias para catalogo.py
 └── README.md                  # Documentación del proyecto
+
+## Ejecución de Consultas y Pruebas
+
+### Requisitos Previos
+Asegurarse de tener Python 3 y `pytest` instalados.
+
+### Ejecución de Consultas
+Para ejecutar el script principal y realizar las consultas de los satélites:
+python consultar_satelites.py datos/satelites.json resumen 
+python consultar_satelites.py datos/satelites.json zona -76.30 -46.13 -66.30 -36.13
